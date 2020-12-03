@@ -1,0 +1,31 @@
+.heroesteam__container {
+  margin: 30px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.heroesteam__title {
+  margin: 30px;
+  text-align: center;
+}
+
+.heroesteam__team {
+  margin: 10px;
+}
+
+@media screen and (min-width: 601px) {
+  .heroesteam__team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .heroesteam__team {
+    justify-content: space-between;
+  }
+}
